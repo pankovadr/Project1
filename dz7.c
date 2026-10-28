@@ -1,37 +1,36 @@
-#define _CRT_SECURE_NO_WARNINGS
+п»ї#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <locale.h>
 int main() {
     setlocale(LC_ALL, "RUS");
     int power;
 
-    printf("Введите степень двойки (целое число): ");
+    printf("Р’РІРµРґРёС‚Рµ СЃС‚РµРїРµРЅСЊ РґРІРѕР№РєРё (С†РµР»РѕРµ С‡РёСЃР»Рѕ): ");
     scanf("%d", &power); 
-    printf("2 в степени %d: ", power);
+    printf("2 РІ СЃС‚РµРїРµРЅРё %d: ", power);
 
     switch (power) {
     case 10:
-        printf("K (Кило)\n");
-        break;
+        printf("K (РљРёР»Рѕ)\n");
+           break;
     case 20:
-        printf("M (Мега)\n");
-        break;
+        printf("M (РњРµРіР°)\n");
+           break;
     case 30:
-        printf("G (Гига)\n");
-        break;
+        printf("G (Р“РёРіР°)\n");
+           break;
     case 40:
-        printf("T (Тера)\n");
-        break;
+        printf("T (РўРµСЂР°)\n");
+           break;
     case 50:
-        printf("P (Пета)\n");
-        break;
+        printf("P (РџРµС‚Р°)\n");
+           break;
     case 60:
-        printf("E (Экса)\n");
-        break;
+        printf("E (Р­РєСЃР°)\n");
+           break;
     default:
-        printf("Неизвестная приставка (нет в списке 10-60)\n");
+        printf("РќРµРёР·РІРµСЃС‚РЅР°СЏ РїСЂРёСЃС‚Р°РІРєР°\n");
         break;
     }
-
     return 0;
 }
