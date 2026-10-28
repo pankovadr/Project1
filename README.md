@@ -14,7 +14,7 @@
 9. Иначе: вывести "Неизвестная приставка".
 10. **Конец**
    ### Блок-схема
-   ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://github.com/pankovadr/Project1/blob/main/Диаграмма%20без%20названия-Страница-1.drawio.png)
+   ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://github.com/pankovadr/Project1/blob/main/Схема7%20конечная.drawio.png)
 ## 2. Реализация программы 
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](2026-10-17_14-56-18.png)
 ## 3.Результаты работы программы
